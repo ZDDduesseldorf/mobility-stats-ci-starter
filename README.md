@@ -378,9 +378,13 @@ uv run ruff format .
 
 Fragen:
 
-- Welche Imports wurden entfernt oder sortiert?
+- Welche Imports wurden entfernt oder sortiert?  
+- A: count_by_rider_type wurde vom anfang an das ende der imports geschoben um die alphabetische reihenfolge beizubehalten.
+- Ausserden wurde in rides.py import sys, from typing import Dict, List entfernt. 
+- in init__py wurden die imports in eigene spalten eingefügt.
 - Welche Formatierungsänderungen wurden vorgenommen?
 - Welche Probleme konnte Ruff nicht selbst sinnvoll lösen?
+- A: unused_copy = a.copy 
 
 ---
 
