@@ -204,9 +204,9 @@ jobs:
 
 Versucht die drei Fragen zu beantworten:
 
-1. **Wann** läuft er?
-2. **Auf welchem Rechner** läuft er?
-3. **Welche lokalen Befehle** führt er dort aus?
+1. **Wann** läuft er?   Er laeuft bei jedem ausgefuehrtem push und bei jedem pull-request
+2. **Auf welchem Rechner** läuft er? Auf dem neusten Ubuntu System
+3. **Welche lokalen Befehle** führt er dort aus? Check out repository, Install uv, sync project, run ruff linter, check formatting
 
 Wichtig:
 
