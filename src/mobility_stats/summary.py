@@ -9,7 +9,7 @@ def build_summary(rides):
         "rider_types": count_by_rider_type(rides),
     }
     if rides:
-        ride_summary["busiest_start_station"] = busiest_start_station(a)
+        ride_summary["busiest_start_station"] = busiest_start_station(ride_summary)
     else:
         ride_summary["busiest_start_station"] = None
     return ride_summary

@@ -7,7 +7,7 @@ def load_rides(csv_path: str) -> list[dict[str, object]]:
     """Load ride data from a CSV file."""
     rides = []
     if os.path.exists(csv_path) == False:
-        raise FileNotFoundError(f"Could not find file: {p}")
+        raise FileNotFoundError(f"Could not find file: {csv_path}")
     with open(csv_path, newline="", encoding="utf-8") as f:
         r = csv.DictReader(f)
         for ride in r:
