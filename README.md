@@ -419,7 +419,7 @@ Beispiele:
 ```text
 a → rides
 p → csv_path
-x → rides
+x → all_rides
 b → total_duration / counts / threshold
 c → ride
 l → long_rides
