@@ -41,16 +41,16 @@ def count_by_rider_type(rides):
     return dict(count)
 
 
-def busiest_start_station(rides):
+def busiest_start_station(all_rides):
     """Return the start station with the most rides."""
-    if rides == None:
+    if all_rides == None:
         raise ValueError("rides must not be None")
-    if len(rides) == 0:
+    if len(all_rides) == 0:
         raise ValueError("rides must not be empty")
     threshold = {}
-    for ride in rides:
-        d = ride["start_station"]
-        threshold[d] = threshold.get(d, 0) + 1
+    for ride in all_rides:
+        station = ride["start_station"]
+        threshold[station] = threshold.get(station, 0) + 1
     return max(threshold, key=threshold.get)
 
 
