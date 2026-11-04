@@ -379,8 +379,22 @@ uv run ruff format .
 Fragen:
 
 - Welche Imports wurden entfernt oder sortiert?
+  rides.py
+    - Import sys wurde entfernt
+    - type import entfernt und einfach dict staat Dict und list staat List benutzt
+  summary.py
+    - importete Funktionen nach Alphabet sotiert
+
 - Welche Formatierungsänderungen wurden vorgenommen?
+  rides.py
+    - Leerzeichen um '=' ergaenzt, bei Aufzaehlungen und anderen Operatoren
+    - Umformatierung des Dictionaries
+  summary.py
+    - Umformatierung des Dictionaries
+    - Leerzeichen um Operatoren
+
 - Welche Probleme konnte Ruff nicht selbst sinnvoll lösen?
+  Die ungenutzte Variable unseencopy konnte Ruff nicht ohne Zustimmung entfernen
 
 ---
 
