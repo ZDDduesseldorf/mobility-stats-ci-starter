@@ -65,9 +65,9 @@ Die Tests sind bereits vorhanden. **Die CI fehlt absichtlich.**
 
 ---
 
-# Phase 1 – Fork, Clone und Baseline
+# Phase 1 – Fork, Clone
 
-## 1. Fork erstellen
+## Fork erstellen
 
 Öffnet das zentrale Starter-Repository auf GitHub.
 
@@ -84,7 +84,7 @@ Das zentrale Kurs-Repository bleibt unverändert.
 
 ---
 
-## 2. Fork mit VS Code klonen
+## Fork mit VS Code klonen
 
 In VS Code:
 
@@ -114,7 +114,7 @@ ci/quality-pipeline
 
 ---
 
-## 3. Umgebung synchronisieren
+## Umgebung synchronisieren
 
 Im integrierten VS-Code-Terminal:
 
@@ -157,7 +157,7 @@ Ihr solltet schnell sehen: eher nicht.
 
 # Phase 2 – Erste CI: Ruff soll das Repository prüfen
 
-## 4. Workflow-Datei anlegen
+## Workflow-Datei anlegen
 
 Erstellt in VS Code:
 
